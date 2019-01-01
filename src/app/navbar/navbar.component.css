@@ -1,7 +1,69 @@
 .one{
-    width: 30%;
+    width: 40%;
 }
 
 .navbar-brand{
-    width: 60%;
+    width: 50%;
 }
+
+@media only screen and (max-width: 1200px) {
+
+    .one{
+        width: 40%;
+    }
+
+    #navbarSupportedContent{
+        height: 50%;
+        width: 92%;
+        font-family: Montserrat;
+        
+    font-size: 16px;     
+   background-image: linear-gradient(to right,#bfd7e9,#5f9dc9,#57a0d3,#73c2fb);
+    border: none;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 1;
+    top: 23%;
+    left: 11px;
+    opacity: 0.9;
+    overflow-x: hidden;
+    text-align: center;
+    transform: translate(-155px, 0) scale(0.4);
+    animation: animate .8s forwards;
+   
+
+    }
+    
+    @keyframes animate{
+        40%{
+            transform: translate(50px, 0) scale(.7);
+            opacity: 0.9;
+            color: indianred;
+        }
+        60%{
+            color: blue;
+        }
+        80%{
+            transform: translate(0) scale(0.2);
+            opacity: 0.9;
+        }
+        100%{
+            transform: translate(0) scale(1 );
+            opacity: 0.9;
+        }
+    }
+    
+    #navbarSupportedContent a{
+    color: white;
+    padding: 15px;
+    
+    }
+
+    #navbarSupportedContent a:hover {
+        color: goldenrod;
+       
+        padding: 20px; 
+        font-size: 19px;       
+    }
+        
+    }

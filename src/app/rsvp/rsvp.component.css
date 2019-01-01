@@ -6,3 +6,13 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
 }
+
+@media only screen and (max-width: 1200px) {
+
+.iff{
+position: absolute;
+left: 5%;
+
+}
+    
+}

@@ -10,11 +10,25 @@ font-size: 20px;
 color: green;  
 }
 
-.w-25{
+.grace{
     position: relative;
-    left: 37%;
+    left: 38%;
     margin-bottom: 12px;
     margin-top: 12px;
+    width: 20%;
     
+    
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+.grace{
+width: 60%;
+position: relative;
+    left: 17%;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
     
 }
