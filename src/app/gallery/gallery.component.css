@@ -1,0 +1,23 @@
+div.scrollmenu{
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu{
+    overflow: auto;
+    white-space: nowrap;
+}
+
+#befor{
+    padding: 10px;
+    font-size: 5rem;
+    color: #57a0d3;
+}
+#next{
+    padding: 10px;
+    font-size: 5rem;
+    color: #57a0d3;
+}
+.nav{
+   margin-left: 40%;
+}

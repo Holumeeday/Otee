@@ -1,0 +1,88 @@
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tos{
+    margin-bottom: 10%;
+}
+.control:hover{
+    border: 2px solid #73c2fb ;
+    transform: translateY(-24px);
+    margin-top: 30px;
+    background-color: #73c2fb;
+    color: white;
+    /* background-image: linear-gradient(rgb(92, 235, 92),greenyellow,green); */
+}
+
+.controll:hover{
+    border: 2px solid #73c2fb ;
+   transform: translateY(-68px);
+   background-color: #73c2fb;
+   color: white;
+   
+}
+
+#wedd{
+    padding: 10px;
+    font-size: 5rem;
+    color: #57a0d3;
+}
+#weddi{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#rep{
+    padding: 10px;
+    font-size: 5rem;
+    color: #57a0d3;
+}
+#repp{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#eng{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info{
+  background-color: thistle;
+  height: 90vh;
+}
+
+#info{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10%;
+    font-family: "monospace";
+}
+#line{
+    position: relative;
+    margin-top: -1.9%;
+   
+}
+
+#loca{
+    position: absolute;
+    left: 9%;
+    color: #57a0d3;
+}
+
+#locat{
+    position: absolute;
+    left: 18%;
+    color: #57a0d3;
+}
+
+
+#time{
+    position: absolute;
+    left: 31%;
+    color: #57a0d3;
+}
+#date{
+    position: absolute;
+    left: 26%;
+    color: #57a0d3;
+}
