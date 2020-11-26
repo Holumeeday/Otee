@@ -21,3 +21,73 @@ div.scrollmenu{
 .nav{
    margin-left: 40%;
 }
+
+
+
+
+.wrapper{
+    margin-top: -20px;
+    margin-left: 53%;
+    width: 100%;
+    transform: translate(-50%, 50%);
+}
+
+.wrapper span{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-family: monospace;
+    display: inline-block;
+    
+    opacity: 0;
+    transform: translate(-155px, 0) scale(0.4);
+    animation: animate .5s forwards;
+}
+
+.wrapper span:nth-of-type(2){
+    animation-delay: 0.05s;
+}
+.wrapper span:nth-of-type(3){
+    animation-delay: 0.1s;
+}
+.wrapper span:nth-of-type(4){
+    animation-delay: 0.15s;
+}
+.wrapper span:nth-of-type(5){
+    animation-delay: 0.2s;
+}
+.wrapper span:nth-of-type(6){
+    animation-delay: 0.25s;
+}
+.wrapper span:nth-of-type(7){
+    animation-delay: 0.3s;
+}
+.wrapper span:nth-of-type(8){
+    animation-delay: 0.35s;
+}
+.wrapper span:nth-of-type(9){
+    animation-delay: 0.4s;
+}
+.wrapper span:nth-of-type(10){
+    animation-delay: 0.45s;
+}
+
+@keyframes animate{
+    40%{
+        transform: translate(50px, 0) scale(.7);
+        opacity: 1;
+        color: indianred;
+    }
+    60%{
+        color: blue;
+    }
+    80%{
+        transform: translate(0) scale(2);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0) scale(1 );
+        opacity: 1;
+    }
+}
+
