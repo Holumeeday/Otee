@@ -3,11 +3,15 @@ import { Routes, RouterModule } from '@angular/router';
 import { GalleryComponent } from './gallery/gallery.component';
 import { InitComponent } from './init/init.component';
 import { StoryComponent } from './story/story.component';
+import {WelcomeComponent} from './welcome/welcome.component';
 
 
 const routes: Routes = [
-  { 
-    path: '',   redirectTo: 'init', pathMatch: 'full' 
+  // { 
+  //   path: '',   redirectTo: 'init', pathMatch: 'full' 
+  // },
+  {
+    path: '', component:WelcomeComponent
   },
   {
     path:'init', component:InitComponent

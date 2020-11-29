@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { InitComponent } from './init/init.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { StoryComponent } from './story/story.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { StoryComponent } from './story/story.component';
     FooterComponent,
     InitComponent,
     GalleryComponent,
-    StoryComponent
+    StoryComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
