@@ -9,6 +9,7 @@ import { InitComponent } from './init/init.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { StoryComponent } from './story/story.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { MapComponent } from './map/map.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
     InitComponent,
     GalleryComponent,
     StoryComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
