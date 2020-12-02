@@ -10,6 +10,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { StoryComponent } from './story/story.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MapComponent } from './map/map.component';
+import { RsvpComponent } from './rsvp/rsvp.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { MapComponent } from './map/map.component';
     GalleryComponent,
     StoryComponent,
     WelcomeComponent,
-    MapComponent
+    MapComponent,
+    RsvpComponent
   ],
   imports: [
     BrowserModule,

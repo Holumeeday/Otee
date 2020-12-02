@@ -65,11 +65,17 @@ p{
 
 #loca{
     position: absolute;
-    left: 9%;
+    left: 1%;
     color: #57a0d3;
 }
 
 #locat{
+    position: absolute;
+    left: 2%;
+    color: #57a0d3;
+}
+
+#locato{
     position: absolute;
     left: 18%;
     color: #57a0d3;

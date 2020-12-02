@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { GalleryComponent } from './gallery/gallery.component';
 import { InitComponent } from './init/init.component';
 import { MapComponent } from './map/map.component';
+import { RsvpComponent } from './rsvp/rsvp.component';
 import { StoryComponent } from './story/story.component';
 import {WelcomeComponent} from './welcome/welcome.component';
 
@@ -25,6 +26,9 @@ const routes: Routes = [
   },
   {
     path:'google-map', component:MapComponent
+  },
+  {
+    path:'rsvp', component:RsvpComponent
   }
 ];
 
