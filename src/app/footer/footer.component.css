@@ -9,3 +9,12 @@
 font-size: 20px;  
 color: green;  
 }
+
+.w-25{
+    position: relative;
+    left: 37%;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    
+    
+}

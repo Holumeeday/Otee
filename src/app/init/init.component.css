@@ -58,9 +58,18 @@ p{
     font-family: "monospace";
 }
 #line{
-    position: relative;
-    margin-top: -1.9%;
-   
+    position: absolute;
+    left: 9%;
+    top: 52%;
+    width: 11%;
+
+}
+
+#line1{
+    position: absolute;
+    left: 82%;
+    top: 52%;
+    width: 11%;
 }
 
 #loca{
