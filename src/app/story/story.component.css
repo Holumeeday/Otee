@@ -1,0 +1,21 @@
+#oge{
+    animation: moveInRight 1s ease-out;
+}
+
+
+@keyframes  moveInRight {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80%{
+        opacity: .5;
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { GalleryComponent } from './gallery/gallery.component';
+import { GiftComponent } from './gift/gift.component';
 import { InitComponent } from './init/init.component';
 import { MapComponent } from './map/map.component';
 import { RsvpComponent } from './rsvp/rsvp.component';
@@ -29,6 +30,9 @@ const routes: Routes = [
   },
   {
     path:'rsvp', component:RsvpComponent
+  },
+  {
+path:'giftregistry', component:GiftComponent
   }
 ];
 

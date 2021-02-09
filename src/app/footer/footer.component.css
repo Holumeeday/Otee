@@ -10,6 +10,10 @@ font-size: 20px;
 color: green;  
 }
 
+hr{
+    width: 30%;
+}
+
 .grace{
     position: relative;
     left: 38%;
