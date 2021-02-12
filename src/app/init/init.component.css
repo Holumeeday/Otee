@@ -29,7 +29,7 @@ p{
 }
 #weddi{
     font-size: 2rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lobster', cursive;
 }
 
 hr.style1{
@@ -42,6 +42,15 @@ position: relative;
 top: -5%;
 animation: moveInRight 1s ease-out;
 }
+
+/*  Background Image */
+
+hr.type_8 {
+    border: 0;
+    height: 55px;
+    /* background-image: url(image/type_8.png); */
+    background-repeat: no-repeat;
+    }
 
 .accessory {
     height: 6px;
@@ -94,12 +103,12 @@ animation: moveInRight 1s ease-out;
 }
 #repp{
     font-size: 2rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Pangolin', cursive;
 }
 
 #eng{
     font-size: 2rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Pangolin', cursive;
 }
 
 .info{
@@ -111,7 +120,7 @@ animation: moveInRight 1s ease-out;
     font-size: 40px;
     text-align: center;
     margin-top: 10%;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
 }
 #line{
     position: absolute;

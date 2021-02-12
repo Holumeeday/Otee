@@ -7,6 +7,29 @@ h1{
 p{
     font-size: 30px;
 }
+.cash{
+    border: 1px solid hotpink;
+    text-decoration: none;
+    padding: 17px;
+    border-radius: 49px;
+    color: black;
+    margin: 10px 10px 20px 10px;
+    
+    
+}
+
+.cash:hover{
+    opacity: 1;
+    color: white;
+    border:none ;
+    background: #dce5a9;
+  background: -moz-linear-gradient(-45deg, #dce5a9 15%, #2b94e5 100%);
+  background: -webkit-linear-gradient(-45deg, #dce5a9 15%,#2b94e5 100%);
+  background: linear-gradient(135deg, #dce5a9 15%,#2b94e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dce5a9', endColorstr='#2b94e5',GradientType=1 );
+}
+
+
 
 .gift{
     border: 1px solid hotpink;
@@ -32,10 +55,23 @@ a{
     text-decoration: none;
 }
 
+.cashgift{
+    background: khaki;
+    border-radius: 10px;
 
+}
+
+.modal-title{
+    color:grey;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: monospace;
+
+}
 
 .scrolling-wrapper{
-	overflow-x: auto;
+    overflow-x: auto;
+   
 }
 
 @media only screen and (max-width: 1200px) {
