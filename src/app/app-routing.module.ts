@@ -6,6 +6,7 @@ import { InitComponent } from './init/init.component';
 import { MapComponent } from './map/map.component';
 import { RsvpComponent } from './rsvp/rsvp.component';
 import { StoryComponent } from './story/story.component';
+import { VendorComponent } from './vendor/vendor.component';
 import {WelcomeComponent} from './welcome/welcome.component';
 
 
@@ -32,7 +33,11 @@ const routes: Routes = [
     path:'rsvp', component:RsvpComponent
   },
   {
-path:'giftregistry', component:GiftComponent
+    path:'giftregistry', component:GiftComponent
+  }
+  ,
+  {
+    path:'vendorlist', component:VendorComponent
   }
 ];
 

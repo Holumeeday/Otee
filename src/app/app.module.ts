@@ -12,6 +12,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { MapComponent } from './map/map.component';
 import { RsvpComponent } from './rsvp/rsvp.component';
 import { GiftComponent } from './gift/gift.component';
+import { VendorComponent } from './vendor/vendor.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { GiftComponent } from './gift/gift.component';
     WelcomeComponent,
     MapComponent,
     RsvpComponent,
-    GiftComponent
+    GiftComponent,
+    VendorComponent
   ],
   imports: [
     BrowserModule,
